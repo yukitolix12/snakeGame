@@ -2,6 +2,7 @@ import javax.swing.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello world");
+        int boardWidth = 600,
+        int boardHeight = boardWidth;
     }
 }
