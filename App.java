@@ -8,5 +8,6 @@ public class App {
         JFrame frame = new JFrame("Snake");
         frame.setVisible(true);
         frame.setSize(boardWidth, boardHeight);
+        frame.setLocationRelativeTo(null);
     }
 }
