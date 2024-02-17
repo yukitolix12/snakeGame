@@ -9,5 +9,6 @@ public class App {
         frame.setVisible(true);
         frame.setSize(boardWidth, boardHeight);
         frame.setLocationRelativeTo(null);
+        frame.setResizable(false);
     }
 }
