@@ -33,4 +33,8 @@ public class SnakeGame extends JPanel {
         super.paintComponent(g);
         draw(g);
     }
+
+    public void draw(Graphics g) {
+        
+    }
 }
