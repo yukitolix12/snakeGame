@@ -29,7 +29,8 @@ public class SnakeGame extends JPanel {
         snakeHead = new Tile(5, 5);
     }
 
-    public void paintComponent(Graphic g) {
-        
+    public void paintComponent(Graphics g) {
+        super.paintComponent(g);
+        draw(g);
     }
 }
