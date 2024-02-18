@@ -9,6 +9,7 @@ public class SnakeGame extends JPanel {
     int boardHeight;
 
     SnakeGame(int boardWidth, int boardHeight){
-
+        this.boardWidth = boardWidth;
+        this.boardHeight = boardHeight;
     }
 }
