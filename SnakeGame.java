@@ -35,6 +35,8 @@ public class SnakeGame extends JPanel {
     }
 
     public void draw(Graphics g) {
-        
+
+        //Snake
+        g.setColor(Color.green);
     }
 }
