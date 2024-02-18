@@ -7,6 +7,7 @@ import javax.swing.*;
 public class SnakeGame extends JPanel {
     int boardWidth;
     int boardHeight;
+    int tileSize = 25;
 
     SnakeGame(int boardWidth, int boardHeight){
         this.boardWidth = boardWidth;
