@@ -59,4 +59,8 @@ public class SnakeGame extends JPanel {
         g.setColor(Color.green);
         g.fillRect(snakeHead.x * tileSize,snakeHead.y * tileSize, tileSize, tileSize);
     }
+
+    public void placeFood() {
+        
+    }
 }
