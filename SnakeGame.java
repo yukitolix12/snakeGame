@@ -34,6 +34,7 @@ public class SnakeGame extends JPanel {
         snakeHead = new Tile(5, 5);
 
         food = new Tile(10,10);
+        random = new Random();
     }
 
     public void paintComponent(Graphics g) {
