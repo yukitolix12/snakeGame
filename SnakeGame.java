@@ -23,6 +23,7 @@ public class SnakeGame extends JPanel {
 
     //Food
     Tile food;
+    Random random;
 
     SnakeGame(int boardWidth, int boardHeight){
         this.boardWidth = boardWidth;
