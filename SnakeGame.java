@@ -72,6 +72,6 @@ public class SnakeGame extends JPanel implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        
+        repaint();
     }
 }
