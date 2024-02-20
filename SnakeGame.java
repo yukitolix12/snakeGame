@@ -41,7 +41,7 @@ public class SnakeGame extends JPanel implements ActionListener {
         placeFood();
 
         gameLoop = new Timer(100, this);
-        
+        gameLoop.start();
     }
 
     public void paintComponent(Graphics g) {
