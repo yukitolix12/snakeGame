@@ -28,6 +28,8 @@ public class SnakeGame extends JPanel {
     //game logic
     Timer gameLoop;
 
+    gameLoop = new Timer(100, this);
+
     SnakeGame(int boardWidth, int boardHeight){
         this.boardWidth = boardWidth;
         this.boardHeight = boardHeight;
