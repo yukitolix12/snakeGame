@@ -61,6 +61,7 @@ public class SnakeGame extends JPanel {
     }
 
     public void placeFood() {
-        
+        food.x = random.nextInt(boardWidth/tileSize);
+        food.y = random.nextInt(boardWidth/tileSize);
     }
 }
