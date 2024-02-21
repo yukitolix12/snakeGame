@@ -89,13 +89,15 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener {
     }
 
     @Override
-    public void keyTyped(KeyEvent e) {
+    public void keyPressed(KeyEvent e) {
         //1000 Auto-generated method stub
-       throw new UnsupportedOperationException("unimplemented 'keyTyped'");
+       throw new UnsupportedOperationException("unimplemented 'keyPressed'");
     }
+
+    //do not need
     @Override
-    public void keyReleased(KeyEvent e) {
-         //1000 Auto-generated method stub
-        throw new UnsupportedOperationException("unimplemented 'keyPressed'");
-    }
+    public void keyTyped(KeyEvent e) {}
+
+    @Override
+    public void keyReleased(KeyEvent e) {}
 }
