@@ -77,7 +77,9 @@ public class SnakeGame extends JPanel implements ActionListener {
     }
 
     public void move() {
-        
+        //Snake Head
+        snakeHead.x += velocityX;
+        snakeHead.y -= velocityY;
     }
 
     @Override
