@@ -76,8 +76,13 @@ public class SnakeGame extends JPanel implements ActionListener {
         food.y = random.nextInt(boardWidth/tileSize);
     }
 
+    public void move() {
+        
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
+        move();
         repaint();
     }
 }
