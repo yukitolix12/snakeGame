@@ -81,7 +81,7 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener {
     }
 
     public boolean collision(Tile tile1, Tile tile2){
-
+        return tile1.x == tile2.x && tile1.y == tile2.y;
     }
 
     public void move() {
