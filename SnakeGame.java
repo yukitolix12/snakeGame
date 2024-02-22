@@ -80,6 +80,10 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener {
         food.y = random.nextInt(boardWidth/tileSize);
     }
 
+    public boolean collision(Tile tile1, Tile tile2){
+
+    }
+
     public void move() {
         //Snake Head
         snakeHead.x += velocityX;
