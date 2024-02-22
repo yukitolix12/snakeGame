@@ -20,6 +20,7 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener {
 
     //Snake
     Tile snakeHead;
+    arrayList<Tile> snakeBody;
 
     //Food
     Tile food;
