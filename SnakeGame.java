@@ -30,6 +30,7 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener {
     Timer gameLoop;
     int velocityX;
     int velocityY;
+    boolean gameOver = false;
 
     SnakeGame(int boardWidth, int boardHeight){
         this.boardWidth = boardWidth;
