@@ -114,6 +114,15 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener {
         //Snake Head
         snakeHead.x += velocityX;
         snakeHead.y -= velocityY;
+
+        //game over Conditions
+        for (int i = 0; i < snakeBody.size(); i++){
+            Tile snakePart = snakeBody.get(i);
+            //collide with the snake head
+            if (collision(snakeHead, snakePart)) {
+                gameOver = true;
+            }
+        }
     }
 
     @Override
