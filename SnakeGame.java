@@ -123,6 +123,10 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener {
                 gameOver = true;
             }
         }
+        if(snakeHead.x*tileSize < 0 || snakeHead.x*tileSize >  boardWidth ||
+           snakeHead.y*tileSize < 0 || snakeHead.y*tileSize >  boardHeight) {
+           gameOver = true;
+           }
     }
 
     @Override
